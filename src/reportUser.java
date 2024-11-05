@@ -2,13 +2,7 @@ import java.util.*;
 
 class Solution {
     public int[] solution(String[] id_list, String[] report, int k) {
-       /* Scanner s = new Scanner(System.in);
-        String id_list = s.nextLine().replaceAll("[\"\\[\\] ]", "");
-        String report = s.nextLine().replaceAll("[\"\\[\\]]", "");
-        int k = s.nextInt();
-        Solution solution = new Solution();
-        int[] arr = solution.solution(id_list.split(","), report.split(","), k);
-        System.out.println(Arrays.toString(arr));*/
+
         int[] answer = new int[id_list.length];
 
         // 유저별 신고당한 횟수 저장
